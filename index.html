@@ -527,17 +527,5 @@
         <p>Copyright &copy; 2020 by Hunger. All rights reserved.</p>
       </div>
     </footer>
-
-    <script>
-      document.querySelectorAll('a[href^="#meals, #"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
-    </script>
   </body>
 </html>
